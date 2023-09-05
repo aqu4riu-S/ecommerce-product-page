@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styling/styles.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+
+
+    <header class="flex-container">
+      <div class="flex-container header-left">
+        <div class="logo">
+          <img src="images/logo.svg" alt="sneakers logo">
+        </div>
+        <ul class="flex-container">
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+  
+      <div class="header-right flex-container">
+        <a href="#" class="btn"><img src="images/icon-cart.svg" alt="cart" id="btn-cart"></a>
+        <div class="user-avatar">
+          <a href="#" class="btn" id="btn-avatar"><img src="images/image-avatar.png" alt="user avatar" id="user-avatar"></a>
+        </div>
+      </div>
+    </header>
+  
+    <main class="flex-container">
+      <div class="grid-container product-imgs">
+        <div class="grid-item grid-item-1">
+          <img src="images/image-product-1.jpg" alt="product img 1">
+        </div>
+        <div class="grid-item grid-item-2">
+          <img src="images/image-product-1-thumbnail.jpg" alt="product img 1 thumbnail">
+        </div>
+        <div class="grid-item grid-item-3">
+          <img src="images/image-product-2-thumbnail.jpg" alt="product img 2 thumbnail">
+        </div>
+        <div class="grid-item grid-item-4">
+          <img src="images/image-product-3-thumbnail.jpg" alt="product img 3 thumbnail">
+        </div>
+        <div class="grid-item grid-item-5">
+          <img src="images/image-product-4-thumbnail.jpg" alt="product img 4 thumbnail">
+        </div>
+      </div>
+  
+      <div class="product-text-container">
+        <div class="product-text">
+          <p class="capitalize text-primary fw-bold">Sneaker Company</p>
+          <h1 class="text-dark">Fall Limited Edition Sneakers</h1>
+          <p class="small-text text-light product-description">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+            durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+          <div class="price-after flex-container">
+            <p class="fw-bold" id="price-after">$125.00</p>
+            <span id="discount" class="fw-bold">50%</span>
+          </div>
+          <p class="small-text text-light fw-bold" id="price-before">$250.00</p>
+          <div class="main-footer flex-container">
+            <div class="quantity flex-container">
+              <a href="#" id="minus" class="btn"><img src="images/icon-minus.svg" alt="minus icon"></a>
+              <p id="quantity">3</p>
+              <a href="#" id="plus" class="btn"><img src="images/icon-plus.svg" alt="plus icon"></a>
+            </div>
+            <a href="#" class="btn btn-primary"><img src="images/icon-cart.svg" alt="cart icon"> Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+  </div>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
